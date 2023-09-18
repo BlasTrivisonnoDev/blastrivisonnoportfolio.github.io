@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Blas Trivisonno</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://lh3.googleusercontent.com/pw/AIL4fc-yOO_DrgCMUf-5E9iMC1JW1DMIlNYbns9f9jL__FY4HqGdRSwiRatLJXueh2k_I0wFVAW-VmSxZOfktOfuHkuvaI-F2nm5LeCmfYj4CjmaxPljXJwuA_8JjcSvdCVoABWwAMkgGfaETgmu8UmHBO6IN4g_-mOnTZfVcYkygOn1TtoBeG_fyxFACaOzIWkfAdpQvL8pBGf1Y_gEk6C1t914iUOy4qVYq8buZkp0KErR2GDknJ8MgfdoEOw3fxWbBva93Z6wha_yggUpKN4KxbAiSUtnJizn0dSUcM48QHENKLu8_f4LxlhSofOR6BBvvVTAHyLz0xdAR54Pq91M6ur5VxmxNW2d6pHCy1bxfw5YC7iq0BxZTH9uqjGqNE5XGPagz3lbM-kfvx_dyfDsGIazxyKr7J-a41QbWX9EOdwl0pE53ozO5181ejSYA1U8ydTfkxRMNcCWKR3sfya9_z57Eju0piTSIM67xIx6zjOwyVzLUNwUj4GS6cfhGRY8xbrETEFMO-UR1pE41gHQCvXufHrk4wLMRqOUxE3jER8fsFMdFk3YwMGRNEiGHI1sLbh0-V_W0eDm02l_gWcWKIh7YQdJmaN66UUncPpDXEkUuqVtA_VwMFusPwQi0EaJvEUkjE6-Zs4cN0U2otRhdg6Wx9rKLdlJAditL5F5a_basQNm8P6Ev-0UMNKujqH8b0mOp_xzcgw_1s5x96Y0SK-hG9yqxvN3qTVbo2lvzM4yQ0bl7VHT8vHiSs_yEzcIuyIoHhJlAkLcYEyRHwJJnMoLRZAzC_xG4SW9UGo-SeVAkuFxdZslLhSzBlXk2FAPcK9o1kbSHvI4gtOtJTMEU0cZLtqoV2yIA9rFZBw0o5njxhEvUqzJmdipgojq8dBZ3t_ine1Dr6my2DLgWKwIXa13aplFl3q_sPCuMGXralXxLAgiQhNWL68DughtPlxaDkX7tEc3G2Du0Pa6cYdPfqdcOLSUEtJgYA=w539-h539-s-no?authuser=0" alt="">
+            </div>
+            <h1>Blas Trivisonno</h1>
+            <h2>Tecnico programador e Ingeniero en Proceso</h2>
+            <div class="redes">
+                <a href="https://api.whatsapp.com/send/?phone=5493413621026&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/blas-trivisonno-47376a241/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:blastrivi@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>¡Hola! Soy Blas.</span> Un apasionado de la tecnología y la programación con sede en Rosario, Argentina. Actualmente, estoy embarcado en un emocionante viaje educativo, estudiando Ingeniería Industrial en la prestigiosa Universidad Nacional de Rosario, mientras también me sumerjo en el mundo de la programación a través de una tecnicatura.
+
+            Desde muy joven, he sentido una fuerte atracción por la tecnología y su capacidad para transformar nuestras vidas. Pero lo que realmente me impulsa es la idea de que puedo ser parte de ese cambio, de moldear el futuro a través de la programación y la innovación.
+
+            Uno de mis intereses más apasionados es la industria automotriz. Los automóviles, con su fusión de ingeniería mecánica y tecnología de vanguardia, son un ejemplo perfecto de cómo la innovación puede impulsar una industria entera. Sueño con un día contribuir al mundo de la movilidad, desarrollando soluciones tecnológicas que hagan que nuestros viajes sean más seguros, eficientes y emocionantes.
+
+            Además, estoy convencido de que la programación es una habilidad poderosa y versátil que puede aplicarse en una amplia gama de campos, desde la industria automotriz hasta la atención médica y más allá. Es por eso que estoy emocionado de explorar oportunidades en el mundo de la tecnología y la programación, especialmente si puedo hacerlo de forma remota.
+
+            Siempre estoy abierto a nuevas conexiones y proyectos interesantes, así que no dudes en contactarme si deseas colaborar o simplemente charlar sobre tecnología, programación o cualquier otro tema apasionante. ¡Espero tener la oportunidad de cruzar caminos contigo en este emocionante viaje!</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            14-01-2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 9 3413621026
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            blastrivi@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Rosario, Santa Fe, Argentina
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+    <a href="https://drive.google.com/file/d/1kQLZTokyHUlOZ1b1xIewU2UCPECQ4ozg/view?usp=drive_link" target="_blank">
+        <button>Descargar CV</button>
+    </a>
+                <span class="overlay"></span>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>AutoCAD</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria Industrial</h4>
+                        <span class="casa">Universidad Nacional De Rosario</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Estoy enfocado en la Ingeniería Industrial, combinando mi pasión por la tecnología y la eficiencia para crear soluciones innovadoras en la industria.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnicatura en Programacion</h4>
+                        <span class="casa">Instituto Teclab</span>
+                        <span class="fecha">2023 - Actualidad</span>
+                        <p>Actualmente, estoy cursando la Tecnicatura en Programación en Teclab, donde desarrollo habilidades técnicas sólidas y aprendo las últimas tendencias en el mundo de la programación.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Primaria y Secundaria</h4>
+                        <span class="casa">Escuela Nuestra Señora de Guadalupe</span>
+                        <span class="fecha">2011 - 2021</span>
+                        <p>He completado exitosamente mis estudios de primaria y secundaria, incluyendo el Bachillerato de Economía. Estas experiencias educativas sólidas me han preparado para nuevos desafíos en mi camino académico y profesional.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Full stack Developer</h4>
+                        <span class="casa">Programa para cocheras</span>
+                        <span class="fecha">2023</span>
+                        <p>Diseñé un programa en Python para gestionar cocheras, simplificando la reserva de espacios y seguimiento de pagos. Utilizando estructuras de datos y algoritmos eficientes, logré una interfaz amigable que brinda a los usuarios un control total sobre sus estacionamientos, optimizando la administración y mejorando la experiencia de estacionamiento.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Creacion de Paginas web</span>
+                        <span class="fecha">2022</span>
+                        <p>Como diseñador web freelance, he tenido el privilegio de crear sitios web personalizados para diversos clientes. Desde el diseño inicial hasta el desarrollo y la implementación, me he enfocado en dar vida a las visiones únicas de mis clientes en línea. La colaboración cercana y la atención a los detalles son clave para entregar proyectos web funcionales y atractivos que superan las expectativas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>AWS</h4>
+                        <span class="casa">Servicios web</span>
+                        <span class="fecha">2022</span>
+                        <p>Proyectos con AWS</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Back Developer</h4>
+                        <span class="casa">Base de datos para biblioteca</span>
+                        <span class="fecha">2022</span>
+                        <p>Mi experiencia en la creación de bases de datos con PostgreSQL ha sido fundamental para desarrollar sistemas robustos y eficientes. Desde el diseño del esquema hasta la implementación de consultas optimizadas, he trabajado en la gestión de datos de manera efectiva. La escalabilidad y la seguridad son prioridades clave en mi enfoque, garantizando que las bases de datos sean sólidas y confiables para satisfacer las necesidades de mis proyectos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+     <div class="col">
+        <form action="https://formspree.io/f/mleylwqv" method="POST">
+            <input type="text" name="nombre" placeholder="Tú Nombre">
+            <input type="text" name="telefono" placeholder="Número telefónico">
+            <input type="text" name="correo" placeholder="Dirección de correo">
+            <input type="text" name="tema" placeholder="Tema">
+            <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button type="submit">
+                Enviar Mensaje
+            </button>
+        </form>
+    </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Rosario, Santa Fe, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 54 9 3413621026 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: blastrivi@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+
+            <a href="https://api.whatsapp.com/send/?phone=5493413621026&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/blas-trivisonno-47376a241/"><i class="fa-brands fa-linkedin-in"></i></a>
+             <a href="mailto:blastrivi@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
